@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Contact() {
   return (
-    <section className="mb-20">
+    <section id="contact" className="mb-20">
       <h2 className="font-bold text-5xl lg:text-7xl mb-10">Kontakt</h2>
       <div>
         <div className="flex gap-8 mb-4 items-center">

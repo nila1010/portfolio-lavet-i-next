@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Ommig() {
   return (
     <>
-      <section className="block md:flex gap-10">
+      <section id="about" className="block md:flex gap-10">
         <Image src={"/nicolai.webp"} width={478} height={636} alt="Profilbillede af Nicolai" style={{ float: "left", objectFit: "contain", alignSelf: "start", maxWidth: "50vw", marginInlineEnd: "4cqi" }} />
         <article className="self-center max-w-prose shrink-[2]">
           <h2 className="text-5xl font-bold lg:text-7xl after:content-['_mig'] after:text-customorange">Om</h2>
