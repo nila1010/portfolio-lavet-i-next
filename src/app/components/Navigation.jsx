@@ -19,7 +19,7 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          <Link className="hover:text-customorange" prefetch={false} href="path">
+          <Link className="hover:text-customorange" prefetch={false} href="#portfolio">
             Portfolio
           </Link>
         </li>

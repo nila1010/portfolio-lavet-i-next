@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="da">
-      <body className="bg-darkblue text-white ">
+      <body className="bg-darkblue text-white scroll-smooth">
         <header>
           <Navigation />
         </header>
