@@ -2,12 +2,13 @@
 import Burger from "./Burger";
 import LinkNavigation from "./Linknavigation";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export default function Navigation() {
-  const [width, setWidth] = useState(window.innerWidth);
+  const [width, setWidth] = useState(861);
 
   useEffect(() => {
+    setWidth(window.innerWidth);
     const handleResize = () => {
       setWidth(window.innerWidth);
     };

@@ -1,8 +1,6 @@
+import dynamic from "next/dynamic";
 import Navigation from "./components/Navigation";
 import "./globals.css";
-import { PT_Sans } from "next/font/google";
-
-const ptsans = PT_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata = {
   title: "Portfolio",
