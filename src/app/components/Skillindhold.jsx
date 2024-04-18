@@ -8,7 +8,7 @@ function Skillindhold({ logo, alt, logo2, alt2, title, tekst }) {
         {logo2 && <img src={logo2} alt={alt2} className="w-12 h-12" />}
       </div>
       <h3 className="text-2xl font-bold mb-4">{title}</h3>
-      <p className="font-thin">{tekst}</p>
+      <p className="text-base md:text-xl font-thin">{tekst}</p>
     </div>
   );
 }

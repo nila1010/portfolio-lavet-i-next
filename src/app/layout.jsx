@@ -9,8 +9,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="da">
-      <body className="bg-darkblue text-white scroll-smooth grid place-content-center">
+    <html lang="da" className="scroll-smooth">
+      <body className="bg-darkblue text-white grid place-content-center">
         <header className="max-w-[1400px]">
           <Navigation />
         </header>

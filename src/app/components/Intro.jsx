@@ -50,7 +50,7 @@ export default function Intro() {
     });
   });
   return (
-    <section className="block mt-16 gap-4 md:grid grid-cols-[3fr_2fr] ">
+    <section className="block mt-16 gap-4 md:grid grid-cols-[3fr_2fr]">
       <div className="slideintext text-right font-bold text-customorange pb-16 md:pb-32 text-6xl md:text-left md:order-1 lg:text-7xl ">
         <p className="text1 translate-x-[200%]">Passion</p>
         <p className="text2 translate-x-[200%]">Simple</p>

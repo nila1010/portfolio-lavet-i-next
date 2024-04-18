@@ -29,7 +29,7 @@ function Portfolio() {
       <article className="outline">
         <ul className="flex flex-wrap justify-between text-center text-lg">
           {portfoliodata.map((one) => {
-            return <Tabelementer setTabStatus={setTabStatus} key={one.title} title={one.title} />;
+            return <Tabelementer setTabStatus={setTabStatus} activetab={tabStatus} key={one.title} title={one.title} />;
           })}
         </ul>
         {portfoliodata.map((one) => {
