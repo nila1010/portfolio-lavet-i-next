@@ -12,11 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="da">
-      <body className="bg-darkblue text-white scroll-smooth">
-        <header>
+      <body className="bg-darkblue text-white scroll-smooth grid place-content-center">
+        <header className="max-w-[1400px]">
           <Navigation />
         </header>
-        <main className="px-8 md:px-16 grid gap-20 lg:gap-40 overflow-hidden">{children}</main>
+        <main className="px-8 md:px-16 grid gap-20 lg:gap-40 overflow-hidden max-w-[1400px]">{children}</main>
         <footer></footer>
       </body>
     </html>

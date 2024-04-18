@@ -24,7 +24,7 @@ function Portfolio() {
   const [tabStatus, setTabStatus] = useState("Consulting");
 
   return (
-    <section id="portfolio" className="port translate-x-[-200%]">
+    <section id="portfolio" className="port translate-x-[-250%]">
       <h2 className="font-bold text-5xl lg:text-7xl mb-10">Portfolio</h2>
       <article className="outline">
         <ul className="flex flex-wrap justify-between text-center text-lg">

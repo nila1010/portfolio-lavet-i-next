@@ -13,12 +13,13 @@ function Skills() {
       scrollTrigger: {
         trigger: "#skills",
         start: "top 600",
-        end: "bottom top",
+        end: "top+=500 center",
         scrub: true,
+        markers: true,
       },
     });
 
-    tl.to("#skills", { opacity: 1 }).to("#skills", { opacity: 0 });
+    tl.to("#skills", { opacity: 1 });
   });
   return (
     <section id="skills" className="opacity-0">
