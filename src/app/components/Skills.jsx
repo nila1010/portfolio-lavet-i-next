@@ -15,7 +15,6 @@ function Skills() {
         start: "top 600",
         end: "top+=500 center",
         scrub: true,
-        markers: true,
       },
     });
 

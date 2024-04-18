@@ -12,7 +12,7 @@ export default function Ommig() {
       scrollTrigger: {
         trigger: ".abouttext",
         start: "top 700",
-        end: "center center",
+        end: "top+=250 center",
         scrub: true,
       },
     });
