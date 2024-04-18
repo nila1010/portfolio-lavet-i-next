@@ -24,8 +24,8 @@ export default function Intro() {
       },
     });
 
-    tl.to(".slideintext", { translateX: 800 });
-    tl2.to(".infotext", { translateX: -800 });
+    tl.to(".slideintext", { translateX: 600 });
+    tl2.to(".infotext", { translateX: -600 });
 
     gsap.to(".text1", {
       scrollTrigger: ".text1",

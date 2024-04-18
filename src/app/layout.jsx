@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <header>
           <Navigation />
         </header>
-        <main className="px-8 md:px-16 grid gap-20 lg:gap-40">{children}</main>
+        <main className="px-8 md:px-16 grid gap-20 lg:gap-40 overflow-hidden">{children}</main>
         <footer></footer>
       </body>
     </html>
