@@ -1,14 +1,31 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import ContentPortfolio from "./ContentPortfolio";
 import { portfoliodata } from "../data/portfoliodata";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Tabelementer from "./Tabelementer";
+gsap.registerPlugin(ScrollTrigger);
 
 function Portfolio() {
+  useGSAP(() => {
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".port",
+        start: "top 600",
+        end: "center center",
+        scrub: true,
+        markers: true,
+      },
+    });
+
+    tl.to(".port", { translateX: 0 });
+  });
   const [tabStatus, setTabStatus] = useState("Consulting");
 
   return (
-    <section id="portfolio">
+    <section id="portfolio" className="port translate-x-[-200%]">
       <h2 className="font-bold text-5xl lg:text-7xl mb-10">Portfolio</h2>
       <article className="outline overflow-hidden">
         <ul className="flex flex-wrap justify-between text-center text-lg">
