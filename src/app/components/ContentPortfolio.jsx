@@ -10,7 +10,7 @@ function ContentPortfolio({ data, activetab }) {
             <h3 className="text-3xl font-bold mb-1">{data.heading}</h3>
             <p className="font-thin">{data.description}</p>
           </div>
-          <div className="flex gap-4 flex-wrap my-4 lg:my-0 lg:mt-4">
+          <div className="flex gap-4 flex-wrap my-8 lg:my-0 lg:mt-4">
             <Button linkPath={data.gitlink}>Github</Button>
             <Button linkPath={data.sitelink}>Se site</Button>
           </div>
