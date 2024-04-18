@@ -16,7 +16,6 @@ function Portfolio() {
         start: "top 600",
         end: "center center",
         scrub: true,
-        markers: true,
       },
     });
 
