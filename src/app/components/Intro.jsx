@@ -10,7 +10,7 @@ export default function Intro() {
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".slideintext",
-        start: "top 200",
+        start: "top 160",
         end: "top",
         scrub: true,
       },
@@ -24,7 +24,7 @@ export default function Intro() {
       },
     });
 
-    tl.to(".slideintext", { translateX: 600 });
+    tl.to(".slideintext", { translateX: 580 });
     tl2.to(".infotext", { translateX: -600 });
 
     gsap.to(".text1", {
