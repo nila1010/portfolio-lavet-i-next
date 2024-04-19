@@ -26,7 +26,7 @@ function Portfolio() {
   return (
     <section id="portfolio" className="port translate-x-[-250%]">
       <h2 className="font-bold text-5xl lg:text-7xl mb-10">Portfolio</h2>
-      <article className="outline">
+      <article className="outline overflow-hidden">
         <ul className="flex flex-wrap justify-between text-center text-lg">
           {portfoliodata.map((one) => {
             return <Tabelementer setTabStatus={setTabStatus} activetab={tabStatus} key={one.title} title={one.title} />;
